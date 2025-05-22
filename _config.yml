@@ -1,0 +1,20 @@
+title: "Hsueh-Ning Chao"
+description: "Data Analyst | Supply Chain | MS BAIM @ Purdue"
+remote_theme: mmistakes/minimal-mistakes
+plugins:
+  - jekyll-include-cache
+
+author:
+  name: "Hsueh-Ning Chao"
+  avatar: "/assets/images/profile.jpg"
+  bio: "Aspiring Data Analyst passionate about supply chain and analytics."
+  location: "New Jersey, USA"
+  links:
+    - label: "LinkedIn"
+      url: "https://linkedin.com/in/hsueh-ning-chao"
+    - label: "GitHub"
+      url: "https://github.com/hsuehningchao"
+
+# Theme Settings
+minimal_mistakes_skin: "default" # 可選：air, dark, mint, sunrise, plum, neon...
+repository: hsuehningchao/hsuehningchao.github.io

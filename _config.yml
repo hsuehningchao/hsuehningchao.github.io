@@ -1,6 +1,6 @@
 title: "Hsueh-Ning Chao"
 description: "Data Analyst | Supply Chain | MS BAIM @ Purdue"
-remote_theme: mmistakes/minimal-mistakes
+remote_theme: "mmistakes/minimal-mistakes"
 plugins:
   - jekyll-include-cache
 
@@ -11,10 +11,19 @@ author:
   location: "New Jersey, USA"
   links:
     - label: "LinkedIn"
+      icon: "fab fa-linkedin"
       url: "https://linkedin.com/in/hsueh-ning-chao"
     - label: "GitHub"
+      icon: "fab fa-github"
       url: "https://github.com/hsuehningchao"
 
-# Theme Settings
-minimal_mistakes_skin: "default" # 可選：air, dark, mint, sunrise, plum, neon...
-repository: hsuehningchao/hsuehningchao.github.io
+# Theme settings
+minimal_mistakes_skin: "default"
+repository: "hsuehningchao/hsuehningchao.github.io"
+
+# Prevent GitHub Pages build errors
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
